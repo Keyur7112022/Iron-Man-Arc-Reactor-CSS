@@ -1,0 +1,111 @@
+body {
+    background-color: #000000;
+    margin: 5px;
+}
+
+
+
+.box {
+    background-color: #075e27c8;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 12s;
+    border-radius: 50% 50%;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: #e21515;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 10s;
+    border-radius: 50% 50%;
+    margin: 5px;
+}
+
+.box2 {
+    background-color: #700fca;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 8s;
+    border-radius: 50% 50%;
+    margin: 5px;
+}
+
+.box3 {
+    background-color: #1593e2;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 6s;
+    border-radius: 50% 50%;
+    margin: 5px 5px;
+}
+
+.box4 {
+    background-color: #8cbe0d;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 4s;
+    border-radius: 50% 50%;
+    margin: 5px;
+}
+
+.box5 {
+    background-color: #e31575;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 2s;
+    border-radius: 50% 50%;
+    margin: 5px;
+}
+
+@keyframes myanimation {
+    0% {
+        background-color: whitesmoke;
+        border-radius: 50% 50%;
+        left: 0%;
+        top: 0%;
+    }
+
+    25% {
+        background-color: rgb(221, 26, 26);
+        border-radius: 50% 50%;
+        left: 1300px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgb(49, 12, 198);
+        border-radius: 50% 50%;
+        left: 1300px;
+        top: 500px;
+
+
+    }
+
+    75% {
+        background-color: rgb(13, 206, 42);
+        border-radius: 50% 50%;
+        left: 0px;
+        top: 500px;
+    }
+
+    100% {
+        background-color: rgb(240, 23, 200);
+        border-radius: 50% 50%;
+        left: 0px;
+        top: 00px;
+    }
+}
